@@ -2,9 +2,6 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<GL/glut.h>
-
-
-
 #define dx 15
 #define dy 25
 
@@ -15,9 +12,6 @@ GLfloat x[25];
 GLfloat y[20];
 GLint i,j,k;
 int w,h;
-
-
-
 void setFont(void *font)
 {
 	currentfont=font;
